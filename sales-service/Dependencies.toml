@@ -5,21 +5,7 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.7.2-20230808-144500-f1d5235c"
-
-[[package]]
-org = "Madushagunasekara"
-name = "sales_service"
-version = "1.0.0"
-dependencies = [
-	{org = "ballerina", name = "http"},
-	{org = "ballerina", name = "io"},
-	{org = "ballerina", name = "test"},
-	{org = "ballerinai", name = "observe"}
-]
-modules = [
-	{org = "Madushagunasekara", packageName = "sales_service", moduleName = "sales_service"}
-]
+distribution-version = "2201.7.2"
 
 [[package]]
 org = "ballerina"
@@ -317,5 +303,19 @@ dependencies = [
 ]
 modules = [
 	{org = "ballerinai", packageName = "observe", moduleName = "observe"}
+]
+
+[[package]]
+org = "madushagunasekara"
+name = "sales_service"
+version = "1.0.0"
+dependencies = [
+	{org = "ballerina", name = "http"},
+	{org = "ballerina", name = "io"},
+	{org = "ballerina", name = "test"},
+	{org = "ballerinai", name = "observe"}
+]
+modules = [
+	{org = "madushagunasekara", packageName = "sales_service", moduleName = "sales_service"}
 ]
 

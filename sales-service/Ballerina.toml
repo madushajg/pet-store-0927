@@ -1,8 +1,8 @@
 [package]
-org = "Madushagunasekara"
+org = "madushagunasekara"
 name = "sales_service"
 version = "1.0.0"
-distribution = "2201.7.2-20230808-144500-f1d5235c"
+distribution = "2201.7.2"
 
 [build-options]
 observabilityIncluded = true
